@@ -13,9 +13,9 @@ void Fail()
 
 int main()
 {
-  char ch[20];
+  char *ch;
   printf("What is the password to access this super secret system?\n");
-  scanf("%s", ch);
+  scanf("%ms", &ch);
   if(strcmp("complex_password", ch) == 0)
   {
     Success();
@@ -25,4 +25,5 @@ int main()
     Fail();
   }
 }
+
 
