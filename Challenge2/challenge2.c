@@ -15,7 +15,7 @@ int main()
 {
   char ch[20];
   printf("What is the password to access this super secret system?\n");
-  scanf("%s", ch);
+  scanf("%20s", ch);
   if(strcmp("complex_password", ch) == 0)
   {
     Success();
