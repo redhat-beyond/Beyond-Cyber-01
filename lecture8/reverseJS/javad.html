@@ -1,0 +1,66 @@
+
+
+<DOCTYPE! html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<script src="js/md5.min.js"></script>
+<style>
+#pass {
+	background-color: #00ccff;
+	color: #000066;
+	border: 1px #0066ff solid;
+	border-radius: 10%;
+	font-size: 30px;
+}
+
+#sub {
+	background-color: #7b9efe;
+	color: #3366ff;
+	border: 1px #0066ff solid;
+	border-radius: 10%;
+	font-size: 30px;
+}
+
+h1 {
+	color: purple;
+	font-family: monospace
+}
+
+div {
+	border: 3px #0066ff solid;
+	width: 55%;
+	background-color: lightblue;
+}
+
+body {
+	background-image: url(tile.jpg);
+}
+
+#valid {
+	color: blue;
+	font-family: monospace;
+	font-size: 20px;
+}
+</style>
+</head>
+<body>
+<center>
+<br><br><br><br><br><br><br><br><br>
+<div>
+<h1>Communication Analysis system, Enter password</h1>
+<br>
+<form name="password" method="post" onsubmit="return validate()">
+<input type="password" id="pass" name="passinp" placeholder="Password" required><br><br>
+<input type="submit" id="sub" value="Login"><br>
+<p id="valid"></p>
+</form>
+</div>
+</center>
+<script>
+var _0xeb5f=["\x76\x61\x6C\x75\x65","\x70\x61\x73\x73\x69\x6E\x70","\x70\x61\x73\x73\x77\x6F\x72\x64","\x66\x6F\x72\x6D\x73","\x63\x6F\x6C\x6F\x72","\x73\x74\x79\x6C\x65","\x76\x61\x6C\x69\x64","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x67\x72\x65\x65\x6E","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x50\x53\x5f\x32\x30\x54\x48\x5f\x43\x54\x46\x7b","\x72\x65\x64","\x49\x6E\x63\x6F\x72\x72\x65\x63\x74\x21"];function validate(){var _0xb252x2=123211;var _0xb252x3=3422543454;var _0xb252x4=document[_0xeb5f[3]][_0xeb5f[2]][_0xeb5f[1]][_0xeb5f[0]];var _0xb252x5=md5(_0xb252x4);_0xb252x4+= 7655;_0xb252x4-= 128274654548;_0xb252x4*= 1828;_0xb252x2-= 3748;_0xb252x3+= 458403;if(_0xb252x4== 988102976119596){document[_0xeb5f[7]](_0xeb5f[6])[_0xeb5f[5]][_0xeb5f[4]]= _0xeb5f[8];document[_0xeb5f[7]](_0xeb5f[6])[_0xeb5f[9]]= _0xeb5f[10]+ _0xb252x5+"\x7d"}else {document[_0xeb5f[7]](_0xeb5f[6])[_0xeb5f[5]][_0xeb5f[4]]= _0xeb5f[11];document[_0xeb5f[7]](_0xeb5f[6])[_0xeb5f[9]]= _0xeb5f[12]};return false}
+
+</script>
+</body>
+</html>
